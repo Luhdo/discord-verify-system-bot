@@ -1,0 +1,35 @@
+{
+  "name": "discord-verify-system-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that welcomes a user when joining a sever in a guild channel and user's DM, written with discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luhdo/discord-verify-system-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "verify",
+    "system",
+    "bot"
+  ],
+  "author": "Ludho",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Luhdo/discord-verify-system-bot/issues"
+  },
+  "homepage": "https://github.com/Luhdo/discord-verify-system-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.12.1",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
