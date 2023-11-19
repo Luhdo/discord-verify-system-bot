@@ -4,6 +4,7 @@ const config = require("./config");
 
 const { Client, Collection } = require("discord.js");
 const _slash = require("./source/utilities/slash");
+require("./source/utilities/server.js");
 
 const intentsLoader = ora("Registering Intents").start();
 
