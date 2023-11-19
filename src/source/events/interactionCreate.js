@@ -22,10 +22,7 @@ module.exports = {
     } else if (i.isModalSubmit()) {
       const checkModal = i.client.modals.get(i.customId);
       await Run(checkModal, i, "ModalSubmit");
-    } else if (i.isAnySelectMenu()) {
-      const checkMenu = i.client.menus.get(i.customId);
-      await Run(checkMenu, i, "SelectMenu");
-    } else if (i.isAutocomplete()) handleAutoComplete(i);
+    }
   },
 };
 

@@ -1,8 +1,8 @@
 {
   "name": "discord-verify-system-bot",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Discord bot that welcomes a user when joining a sever in a guild channel and user's DM, written with discord.js",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",

@@ -47,15 +47,6 @@ module.exports = {
     let finalArray = commandsArray.map((e) => e.data.toJSON());
     slash.register(client.user.id, finalArray);
 
-    // MENUS
-    const menuFiles = fs
-      .readdirSync("./src/source/interactions/menus")
-      .filter((f) => f.endsWith(".js"));
-    menuFiles.forEach((file) => {
-      const menu = require(`../interactions/menus/${file}`);
-      client.menus.set(menu.data.name, menu);
-    });
-
     // BUTTONS
     const buttonFiles = fs
       .readdirSync("./src/source/interactions/buttons")
